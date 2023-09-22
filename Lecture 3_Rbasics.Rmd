@@ -1,0 +1,87 @@
+---
+title: "Rmarkdown in-class demo"
+author: "YXR"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# this is my level 1 heading
+
+
+
+Add code to your document
+#
+
+#
+
+```{r}
+1+1
+2+2
+log(10)
+```
+
+Output Figures
+```{r}
+plot(1:10,1:10)
+```
+
+
+Display Data
+
+```{r}
+
+```
+
+
+in-line R code
+
+scientific research shows that 12223 + 12111 = 
+`r 12223 + 12111``
+
+```{r}
+#install.packages("tinytex")
+#tinytex::install_tinytex()
+```
+
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+
+
+GitHub
+
+open with GH desktop
+
+
+
+
+
+
+
+
+
+
+
